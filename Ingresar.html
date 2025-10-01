@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ingresar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body class="bg-secondary text-white">
+
+<nav class="navbar navbar-expand-lg bg-black navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+        <img src="imagenes/77.jpg" width="40" height="30" class="d-inline-block align-text-top" alt="logo">
+        CTW
+    </a>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h2 class="text-center">Iniciar Sesión</h2>
+
+  <center>
+    <img src="imagenes/door-575985_640.png" alt="Puerta" width="300px">
+  </center><br>
+
+  <div class="row justify-content-center">
+
+    <div class="col-md-5">
+      <form action="usuario.html" method="get">
+        <h5 class="text-center mb-3">Ingresar como Usuario</h5>
+
+        <div class="mb-3">
+          <label for="correoUsuario" class="form-label">Correo:</label>
+          <input type="email" id="correoUsuario" name="correo" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="passwordUsuario" class="form-label">Contraseña:</label>
+          <input type="password" id="passwordUsuario" name="password" class="form-control" required>
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary">Ingresar</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-5">
+      <form action="conductor.html" method="get">
+        <h5 class="text-center mb-3">Ingresar como Conductor</h5>
+
+        <div class="mb-3">
+          <label for="correoConductor" class="form-label">Correo:</label>
+          <input type="email" id="correoConductor" name="correo" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="passwordConductor" class="form-label">Contraseña:</label>
+          <input type="password" id="passwordConductor" name="password" class="form-control" required>
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-success">Ingresar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Enlace para registrarse -->
+  <div class="register-link text-center mt-4">
+    ¿No tienes cuenta? <a href="Registrarse.html" class="text-light fw-bold">Regístrate</a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container-fluid bg-black text-white px-5">
+    <br><br>
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="text-danger">Connecting the world (CTW)</h3>
+        <p>Conectando personas, ideas y oportunidades alrededor del mundo.</p>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3 class="text-light">Síguenos</h3>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="text-warning"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-success"><i class="bi bi-discord"></i></a>
+          <a href="#" class="text-primary"><i class="bi bi-twitch"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <hr class="m-0 border-primary mx-3">
+      <p class="text-center py-3 mb-0">&copy; 2025 CTW Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

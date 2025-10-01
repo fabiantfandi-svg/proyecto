@@ -1,0 +1,30 @@
+ul.list-group li.list-group-item:hover {
+    background-color: #e2e6ea !important;
+  }
+  input[type="checkbox"]:checked + label {
+    font-weight: 600;
+    color: green;
+  }
+
+  input[type="checkbox"]:checked + label + span {
+    display: inline-block !important;
+  }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #000;
+  color: #fff;
+}

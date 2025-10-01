@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Solicitar viaje</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+<nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+        <img src="imagenes/77.jpg" width="40" height="30" class="d-inline-block align-text-top" alt="logo">
+        CTW
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#.html">Solicitar viaje</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Cerrar Sesion</a>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<div class="container-fluid cmw bg-secondary p-5 ">
+ <h1>Solicitar viajes</h1><br>
+ <div class="container">
+    <div class="row">
+          <div class="col-lg-6 col-md-6 sm-12">
+              <form action="">
+                  <div class="mb-3">
+                  <label for="" class="form-label"><i class="bi bi-geo-alt-fill"></i> Ubicación inicial   </label>
+                  <input type="text" class="form-control" id="" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label"><i class="bi bi-map"></i> Destino   </label> 
+                  <input type="text" class="form-control" id="">
+                  <div id="" class="form-text">Lugar al que desea ir</div>
+                </div>
+                <div class="mb-3">
+                  <label for="discapacidad" class="form-label"><i class="bi bi-universal-access"></i> Tipo de Discapacidad</label>
+                  <select id="discapacidad" class="form-control">
+                    <option selected disabled>Seleccione...</option>
+                    <option>Auditiva</option>
+                    <option>Visual</option>
+                    <option>Física</option>
+                    <option>Cognitiva</option>
+                    <option>Psicosocial</option>
+                    <option>Múltiple</option>
+                  </select>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">¿Está seguro?</label>
+                </div>
+                
+                <!-- Botón Solicitar con collapse -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#conductores">
+                  Solicitar
+                </button>
+
+                <!-- Conductores disponibles -->
+                <div class="collapse mt-3" id="conductores">
+                  <div class="card card-body bg-dark text-white">
+                    <h4>Conductores disponibles</h4>
+                    <div class="list-group">
+
+                      <div class="list-group-item bg-secondary text-white mb-2">
+                        <strong>Conductor:</strong> Juan Pérez <br>
+                        <strong>Placa:</strong> ABC-123 <br>
+                        <strong>Vehículo:</strong> Renault Kangoo <br>
+                        <strong>Adaptación:</strong> Rampas para silla de ruedas
+                      </div>
+
+                      <div class="list-group-item bg-secondary text-white mb-2">
+                        <strong>Conductor:</strong> María Gómez <br>
+                        <strong>Placa:</strong> XYZ-987 <br>
+                        <strong>Vehículo:</strong> Toyota Hiace <br>
+                        <strong>Adaptación:</strong> Asientos reclinables y espacio para perro guía
+                      </div>
+
+                      <div class="list-group-item bg-secondary text-white mb-2">
+                        <strong>Conductor:</strong> Carlos Ruiz <br>
+                        <strong>Placa:</strong> JKL-456 <br>
+                        <strong>Vehículo:</strong> Chevrolet N300 <br>
+                        <strong>Adaptación:</strong> Elevador hidráulico para silla de ruedas
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </form>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+             <center><img src="imagenes/erre.png" alt="" width="500px" height="300px"></center>
+          </div>
+      
+    </div>
+
+ </div>
+</div>
+
+<div class="container-fluid sugerencias  bg-dark text-white p-5 m-0" data-bs-theme="dark">
+        <h1 class="">Lugares y actividades destacadas</h1><br>
+             <div class="row">
+                <!-- Lugar 1 -->
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-3 p-5">
+                    <div class="card bg-black text-white border-0  h-100 shadow ">
+                        <img src="imagenes/11.avif" alt="" class="card-img-top"  height="400px">
+                        <div class="card-body bg-black">
+                            <h5>Zipaquirá: Excursión en grupo a la Catedral de Sal con servicio de recogida</h5><br>
+                            <p class="card-title">Accesible en silla de ruedas <br> Accesible con baston <br> Accesible con muletas</p>
+                            <center> 
+                              <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#info1">Saber más</button>
+                            </center>
+                            <div class="collapse mt-2" id="info1">
+                              <div class="card card-body bg-dark text-white">
+                                Incluye transporte accesible, guías especializados y entradas con prioridad.
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Lugar 2 -->
+                 <div class="col-lg-4 col-md-4 col-sm-6 mb-3 p-5">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="imagenes/22.avif" alt="" class="card-img-top" height="400px">
+                        <div class="card-body bg-black">
+                            <h5>Visita al jardín botánico y la casa de Betty la Fea</h5><br>
+                            <p class="card-title">Accesible en silla de ruedas <br> Accesible con baston <br> Accesible con muletas</p>
+                            <center> 
+                              <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#info2">Saber más</button>
+                            </center>
+                            <div class="collapse mt-2" id="info2">
+                              <div class="card card-body bg-dark text-white">
+                                Recorrido guiado por senderos accesibles, con espacios adaptados y personal capacitado.
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Lugar 3 -->
+                 <div class="col-lg-4 col-md-4 col-sm-6 mb-3 p-5">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="imagenes/33.avif" alt="" class="card-img-top"  height="400px">
+                        <div class="card-body bg-black">
+                            <h5>Parque Jaime Duque y zoo</h5><br>
+                            <p class="card-title">Accesible en silla de ruedas <br> Accesible con baston <br> Accesible con muletas</p>
+                            <center> 
+                              <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#info3">Saber más</button>
+                            </center>
+                            <div class="collapse mt-2" id="info3">
+                              <div class="card card-body bg-dark text-white">
+                                Zonas adaptadas, transporte interno accesible y actividades inclusivas.
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Lugar 4 -->
+                 <div class="col-lg-4 col-md-4 col-sm-6 mb-3 p-5">
+                    <div class="card bg-black text-white border-0  h-100 shadow ">
+                        <img src="imagenes/44.jpg" alt="" class="card-img-top"  height="400px">
+                        <div class="card-body bg-black">
+                            <h5>Ecoturismo incluyente en el Parque Nacional Natural Chingaza</h5><br>
+                            <p class="card-title"> Accesible con baston <br> Accesible con muletas <br> Adaptado para personas sordomudas</p>
+                            <center> 
+                              <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#info4">Saber más</button>
+                            </center>
+                            <div class="collapse mt-2" id="info4">
+                              <div class="card card-body bg-dark text-white">
+                                Caminatas guiadas con intérprete de señas y rutas adaptadas para todos.
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Lugar 5 -->
+                 <div class="col-lg-4 col-md-4 col-sm-6 mb-3 p-5">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="imagenes/55.jpg" alt="" class="card-img-top" height="400px">
+                        <div class="card-body bg-black">
+                            <h5>Museo Nacional de Colombia</h5><br>
+                            <p class="card-title"> Aseo reservado para PMR <br> Personal con conocimientos de Lengua de Signos <br> Subtitulado <br> Audioguías</p>
+                            <center> 
+                              <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#info5">Saber más</button>
+                            </center>
+                            <div class="collapse mt-2" id="info5">
+                              <div class="card card-body bg-dark text-white">
+                                Exposiciones con subtítulos, audioguías y personal especializado en accesibilidad.
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Lugar 6 -->
+                 <div class="col-lg-4 col-md-4 col-sm-6 mb-3 p-5">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="imagenes/66.jpg" alt="" class="card-img-top"  height="400px">
+                        <div class="card-body bg-black">
+                            <h5>Transmicable</h5><br>
+                            <p class="card-title">Acceso sin desniveles <br>Aseo reservado para PMR <br>Personal con conocimientos de Lengua de Signos <br>Subtitulado</p>
+                            <center> 
+                              <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#info6">Saber más</button>
+                            </center>
+                            <div class="collapse mt-2" id="info6">
+                              <div class="card card-body bg-dark text-white">
+                                Transporte seguro y accesible con cabinas adaptadas y personal de apoyo.
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+    </div>
+</div>
+
+
+<footer>
+  <div class="container-fluid bg-black text-white px-5">
+    <br><br>
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="text-danger">Connecting the world  (CTW)</h3>
+        <p>Conectando personas, ideas y oportunidades alrededor del mundo.</p>
+      </div>
+
+      <div class="col-md-4">
+
+        <h3 class="text-light"></h3>
+        <ul class="">
+              <p class="text-center py-3 mb-0"> </p>
+
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h3 class="text-light"> Siguenos</h3>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="text-warning"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-success"><i class="bi bi-discord"></i></a>
+          <a href="#" class="text-primary"><i class="bi bi-twitch"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+          <hr m="0" border-primary mx="3">
+          <p class="text-center py-3 mb-0"> &copy; 2025 CTW Todos los derechos reservados.</p>
+
+    </div>
+  </div>
+
+</footer>
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+
