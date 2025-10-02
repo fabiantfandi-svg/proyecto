@@ -13,3 +13,12 @@ p {
 .cmw img{
     filter: brightness(0.9);
 }
+  #sugerencia::placeholder {
+    color: white;
+    opacity: 1;
+  }
+
+  #sugerencia {
+    color: white;
+    background-color: #212529; 
+  }
